@@ -21,7 +21,7 @@ end
 
 def chat_completion(prompt)
   # OpenAI API処理
-  openai_client = OpenAI::Client.new(access_token: "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")
+  openai_client = OpenAI::Client.new(access_token: "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")
   openai_resp = openai_client.chat(
     parameters: {
       model: "gpt-3.5-turbo-16k-0613",
