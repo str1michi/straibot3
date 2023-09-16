@@ -105,7 +105,6 @@ post '/messages' do
 <h2>「法令解釈通達」の検索結果</h2>
 1. <a href="https://www.google.com/url?client=internal-element-cse&cx=002894216937212238947:kbug-tlua7u&q=https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/kaisei/230707/pdf/02.pdf&sa=U&ved=2ahUKEwiOjNGAwq-BAxU_pVYBHbcHBcUQFnoECAcQAg&usg=AOvVaw0BXst6M2NwkkGf_TGfFNZO">令和 5 年5月 ストックオプションに対する課税（Q＆A）</a><br>
 www.nta.go.jp › law › tsutatsu › kihon › shotoku › kaisei › pdf<br>
-ファイル形式: PDF/Adobe Acrobat<br>
 2023/07/07 ... により、課税が繰り延べられることから、課税関係は生じません。 ③ 当該ストックオプションを行使して取得した株式を売却した場合、株式譲渡益課税の対象 ...<br>
 2. <a href="https://www.google.com/url?client=internal-element-cse&cx=002894216937212238947:kbug-tlua7u&q=https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/kaisei/kaisei4.htm&sa=U&ved=2ahUKEwiOjNGAwq-BAxU_pVYBHbcHBcUQFnoECAEQAQ&usg=AOvVaw1LAE8CMRZcPJdoeMfvW5Ie">法人課税関係の申請、届出等の様式の制定について 一部改正通達 ...</a><br>
 www.nta.go.jp › law › tsutatsu › kobetsu › hojin › kaisei › kaisei4<br>
