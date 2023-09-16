@@ -84,7 +84,8 @@ post '/messages' do
 
     msg_handler = MessageHandler.new(json_body)
     # msg_handler.reply_text = openai_resp['choices'][0]['message']['content']
-    msg_handler.reply_text = '<h2>「e-Gov法令検索」の検索結果</h2>
+    msg_handler.reply_text = '<h1>「課税」に関する各データソースの検索結果を表示します。</h1>
+<h2>「e-Gov法令検索」の検索結果</h2>
 1. <a href="https://elaws.e-gov.go.jp/document?lawid=329AC0000000194_20170401_000000000000000&keyword=%E8%AA%B2%E7%A8%8E">遺産、相続及び贈与に対する租税に関する二重課税の回避及び脱税の防止のための日本国とアメリカ合衆国との間の条約の実施に伴う相続税法の特例等に関する法律（昭和二十九年法律第百九十四号）</a><br>
 公布日：昭和二十九年六月二十三日|（平成２９年４月１日（基準日）現在のデータ）<br>
 <法律><br>
