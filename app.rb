@@ -83,7 +83,7 @@ post '/messages' do
     logger.info("openai-resp:#{openai_resp}")
 
     msg_handler = MessageHandler.new(json_body)
-    msg_handler.reply_text = openai_resp['choices'][0]['message']['content']
+    msg_handler.reply_text = openai_resp['choices'][0]['message']['content'] + '<a href="https://www.google.co.jp/">Google</a>'
 
     # メッセージ返信処理
     # resp_body = msg_handler.reply(botService)
