@@ -84,7 +84,7 @@ post '/messages' do
 
     msg_handler = MessageHandler.new(json_body)
     # msg_handler.reply_text = openai_resp['choices'][0]['message']['content']
-    msg_handler.reply_text = '<h1>問合せ内容「株式移転比率が時価ではなかった時の課税関係を条文を引用して解説してください」に関する各データソースの検索結果を表示します。</h1>
+    msg_handler.reply_text = '<h1>「株式移転比率が時価ではなかった時の課税関係を条文を引用して解説してください」について、検索結果および生成された文章を表示します。</h1>
 <h2>「法令DB」の検索結果</h2>
 1. <a href="https://elaws.e-gov.go.jp/document?lawid=329AC0000000194_20170401_000000000000000&keyword=%E8%AA%B2%E7%A8%8E">遺産、相続及び贈与に対する租税に関する二重課税の回避及び脱税の防止のための日本国とアメリカ合衆国との間の条約の実施に伴う相続税法の特例等に関する法律（昭和二十九年法律第百九十四号）</a><br>
 公布日：昭和二十九年六月二十三日|（平成２９年４月１日（基準日）現在のデータ）<br>
@@ -113,7 +113,7 @@ post '/messages' do
 法人課税関係の申請、届出等の様式の制定について 一部改正通達. 「法人課税関係の申請、届出等の様式の制定について」の一部改正について（令和5年6月30日） ...<br>
 3. <a href="https://www.google.com/url?client=internal-element-cse&cx=002894216937212238947:kbug-tlua7u&q=https://www.nta.go.jp/law/tsutatsu/kihon/shohi/01.htm&sa=U&ved=2ahUKEwiOjNGAwq-BAxU_pVYBHbcHBcUQFnoECAYQAQ&usg=AOvVaw18F3uwn90k6tkH97FLmAIy">消費税法基本通達｜国税庁</a><br>
 課税期間. 第1節 個人事業者の課税期間. 第2節 法人の課税期間. 第3節 課税期間の特例. 第4章 実質主義、信託財産に係る譲渡等の帰属. 第1節 実質主義. 第2節 信託財産に ...
-<h2>上記検索結果、問合せ内容を元に、生成された文章を表示します。</h2>
+<h2>生成された文章</h2>
 以下に、株式の移転に関連するいくつかの重要な法的規定を示しますが、これはあくまで一例であり、全てを網羅しているわけではありません。<br>
 法人税法第2条第1項:<br>
 この条文は、法人税の対象となる所得の定義を提供します。株式の移転によって生じる所得も、この定義に基づき課税されます。<br>
